@@ -1,0 +1,5 @@
+<apex:page standardController="Contact" tabStyle="Contact">
+    <flow:interview name="Contact_Verification">
+        <apex:param name="ContactID" value="{!Contact.ID}"/>
+    </flow:interview>
+</apex:page>
